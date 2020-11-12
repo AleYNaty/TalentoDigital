@@ -44,13 +44,13 @@ class EvaluacionGrupo03SpringSecurityApplicationTests {
 		repoUser.save(u1);
 
 		Usuario u2 = new Usuario();
-		u2.setUser("premium");
+		u2.setUser("userpre");
 		u2.setPass(encoder.encode("123"));
 		u2.setCargo(c2);
 		repoUser.save(u2);
 		
 		Usuario u3 = new Usuario();
-		u3.setUser("turismo");
+		u3.setUser("usertur");
 		u3.setPass(encoder.encode("123"));
 		u3.setCargo(c3);
 		repoUser.save(u3);
