@@ -6,7 +6,7 @@
 <meta charset="UTF-8">
 	<!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-
+	<link rel="stylesheet" href="/css/styles.css">
 	<title>LASER Airlines</title>
 </head>
 <body>
@@ -64,7 +64,7 @@
 	    </div>
 	
 	
-	<jsp:include page="/WEB-INF/views/shared/footer.jsp"></jsp:include>
+	    <jsp:include page="/WEB-INF/views/shared/footer.jsp"></jsp:include>
 	
 	<!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

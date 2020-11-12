@@ -31,7 +31,9 @@ public class WebController {
 			}
 		}
 		return "login";
+		
 	}	
+	
 
 	
 	@GetMapping("/home")
